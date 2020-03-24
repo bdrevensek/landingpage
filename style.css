@@ -1,0 +1,183 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #DCDCDC;
+}
+
+body {
+  font-family: 'Avenir', sans-serif;
+  font-weight: 400;
+}
+
+.header {
+  background: url("images/background.jpg") no-repeat center center; 
+  background-size: cover;
+  height: 570px;
+  column-width: 100%;
+}
+
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.column {
+	display: inline-flex;
+	padding: 40px;
+}
+
+
+.me {
+	border-radius: 50%;
+	border:1px solid #ADD8E6;;
+
+}
+
+
+.container ul {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 20px;
+  	list-style: none;
+}
+
+
+.container ul li {
+  height: 90px;
+  line-height: 100px; 
+  padding: 0 10px;
+}
+
+a {
+	color: white;
+  font-family: avenir;
+  text-decoration: none;
+
+}
+
+a:hover {
+	cursor:pointer;
+	color: pink;
+	font-style: italic;
+}
+
+
+
+.intro {
+display: inline-block;
+justify-content: center;
+align-items: center;
+}
+
+.intro .name::before {
+	content:"";
+	height: 120px;
+	width:3px;
+	background: white;
+	float: left;
+	margin-right: 15px;
+}
+
+
+.intro h1 {
+	font-family: 'Didot';
+	color: 	#F5F5F5;
+	font-size:60px;
+	line-height: 100%;
+
+}
+
+
+.box{
+	height: 170px;
+	width: 400px;
+	/*background-color: white;
+	opacity: 0.4;*/
+
+}
+.box p {
+	width: 350px;
+	height: 150px;
+	padding: 10px;
+	font-style: normal;
+
+}
+
+
+.projects{
+	margin: 40px;
+	display:flex;
+	justify-content: flex-start;
+}
+
+.projects h2::before {
+	content:"";
+	height: 40px;
+	width:2px;
+	background: #2F4F4F;
+	float: left;
+	margin-right: 15px;
+}
+	
+ 
+.projects h2{
+	font-family: Didot;
+	color: #2F4F4F;
+	font-weight: 250;
+	font-size: 30px;
+
+}
+
+.allGraphics{
+	margin: 40px;
+	
+}
+
+.graphics{
+	transition-delay: .15s;
+	float:left;
+	padding: 20px;
+}
+
+.graphics:hover {
+	opacity: 0.6;
+}
+
+.graphics2{
+	transition-delay: .15s;
+	float:right;
+	padding: 20px;
+
+}
+
+.graphics2:hover {
+	opacity: 0.6;
+}
+
+.graphics3{
+	transition-delay: .15s;
+	float:left;
+	padding: 20px;
+}
+
+.graphics3:hover {
+	opacity: 0.6;
+}
+
+.graphics4{
+	transition-delay: .15s;
+	float:right;
+	padding: 20px;
+}
+
+.graphics4:hover {
+	opacity: 0.6;
+}
+
+h3 {
+	font-family: Avenir;
+	font-weight: 200;
+	color:gray;
+}
